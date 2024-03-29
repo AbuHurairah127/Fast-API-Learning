@@ -41,3 +41,9 @@ def get_todo(id:int):
         if dictionary.id == id:
             return dictionary
     return None 
+# @app.put("/get-todo/{id}")
+# def get_todo(id:int):
+#     for dictionary in todos:
+#         if dictionary.id == id:
+#             return dictionary
+#     return None 
